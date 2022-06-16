@@ -263,6 +263,6 @@ function blog_post(data){
     event.preventDefault();
     console.log(data)
     localStorage.setItem("blog_posts",JSON.stringify(data))
-    window.location.href="/Anthropologie/blog/read.html"
+    window.location.href="/Anthropologie-Unit3/blog/read.html"
     
 }

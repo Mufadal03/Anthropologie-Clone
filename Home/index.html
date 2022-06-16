@@ -12,6 +12,7 @@
     ></script>
     <title>Anthropologie</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../navbar/navbar.css">
     <style>
       /* *
       {
@@ -122,10 +123,13 @@
         /* border: 2px solid red; */
         background-color: azure;
         z-index: 1;
-        width: 40%;
+        width: 50%;
         height: 40px;
         margin-left: 10%;
         margin-top: -60px;
+      }
+      .always p{
+        margin-top: 5px;
       }
       #section_one {
         /* border: 2px solid red; */
@@ -141,7 +145,14 @@
       #section_one #sub_catogeri div img{
         width: 100%;
       }
-
+      #section_one hr{
+        margin-bottom: 20px;
+      }
+      #section_one p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 100;
+      }
       
       
       #explor {
@@ -149,12 +160,16 @@
         margin: auto;
         height: auto;
         text-align: center;
+        /* border: 2px solid red; */
       }
       #explor #explor_more {
         height: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 1.3rem;
       }
 
       #explor #explor_more .div1 img {
@@ -165,19 +180,42 @@
         width: 90%;
         margin: auto;
         text-align: justify;
+
+      }
+      #explor>h3,#section_one>h3{
+        margin-bottom: 10px;
+        font-size: 26px;
+        font-weight: 100;
+      }
+      #explor p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+      }
+      #explor #explor_more h3{
+        font-size: 19px;
+        font-weight: 100;
+        margin-top: 10px;
       }
       #about_us {
         width: 90%;
         margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
       }
       #about_us p{
-        font-size: 15px;
+        font-size: 14px;
+        margin-top: 10px;
         line-height: 1.5rem;
+      }
+      #about_us hr{
+        margin-bottom: 30px;
       }
     </style>
   </head>
   <body>
-    <h3>Home</h3>
+    <!-- <h3>Home</h3> -->
+    <div id="navbar"></div>
     <div id="wrapper">
       <div>
         <a href=""><img
@@ -412,7 +450,7 @@
       <hr />
       <div id="explor_more">
         <div class="div1">
-          <a href="/Anthropologie/blog/blog.html">
+          <a href="/Anthropologie-Unit3/blog/blog.html">
             <img
               src="https://images.ctfassets.net/5de70he6op10/2p2vZ94vvOAHcr2maK7n4l/7c1ddd4db0b10744446356e9bf5daa29/MTE_Denim-Fit-Guide.jpg?w=856&q=80&fm=webp"
               alt=""
@@ -424,11 +462,11 @@
               Introducing the perfect pairs for every wear. From rise to size,
               here's how to find your new favorite jeans.
             </p>
-            <a href="/Anthropologie/blog/blog.html">find your fit</a>
+            <a href="/Anthropologie-Unit3/blog/blog.html">find your fit</a>
           </div>
         </div>
         <div class="div1">
-          <a href="/Anthropologie/blog/blog.html">
+          <a href="/Anthropologie-Unit3/blog/blog.html">
             <img
               src="https://images.ctfassets.net/5de70he6op10/5z1SzJjtkNuitP2HKuc7Ww/4f0f76621a8587e50d4b9e96a30edf36/041122_HPG_MTE_GreaterGood.jpg?w=856&q=80&fm=webp"
               alt=""
@@ -440,11 +478,11 @@
               Our priority: to be a force for good, a greater good, in better
               service of our planet, its people, and our products.
             </p>
-            <a href="/Anthropologie/blog/blog.html">learn more about your journey</a>
+            <a href="/Anthropologie-Unit3/blog/blog.html">learn more about your journey</a>
           </div>
         </div>
         <div class="div1">
-          <a href="/Anthropologie/blog/blog.html">
+          <a href="/Anthropologie-Unit3/blog/blog.html">
             <img
               src="https://images.ctfassets.net/5de70he6op10/49rdsFgsKhGoiPP98cJnl4/710954132da29d2dbd33de49eeabe5b0/MTE_MarkDSikes.jpg?w=856&q=80&fm=webp"
               alt=""
@@ -456,7 +494,7 @@
               Arrange your table with fresh takes on timeless essentials, set in
               the esteemed designer's signature color palette.
             </p>
-            <a href="/Anthropologie/blog/blog.html">shop the Poppy collection</a>
+            <a href="/Anthropologie-Unit3/blog/blog.html">shop the Poppy collection</a>
           </div>
         </div>
       </div>
@@ -509,14 +547,25 @@
     }
 })
 </script>
-<a href="/Anthropologie/components/footer.js"></a>
+<a href="/Anthropologie-Unit3/compt/footer.js"></a>
   </body>
 </html>
 <script src="product.js"></script>
 <script type="module">
-  import footer from "/Anthropologie/components/footer.js";
+  import footer from "/Anthropologie-Unit3/compt/footer.js";
  
  document.getElementById("footer_main").innerHTML = footer()
+
+
+ import navbar from "../components/navbar.js"
+    document.querySelector("#navbar").innerHTML=navbar()
+    import dropdown from "../components/dropdown.js"
+    dropdown()  
+
+
+
+
+
 
 let input = document.getElementById("input_main")
 let btn = document.getElementById("submit_main")
