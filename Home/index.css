@@ -1,0 +1,141 @@
+footer{
+    /* padding: 0px 30px; */
+    
+    margin-bottom: 10px;
+    background-color: rgb(244, 244, 244);
+    
+}
+footer #New_arrival,footer #footer2,footer #icon,footer #country,#bottom_line,#sail_image{
+    width: 90%;
+        margin: auto;
+}
+footer #New_arrival #footer_main{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+footer #mail .Input{
+    width: 370px;
+    height: 40px;
+    border-color: #167492;
+}
+footer #mail .Submit{
+    width: 120px;
+    height: 45px;
+    background-color: #5b5e5f;
+    color: white;
+    /* word-spacing: 50px; */
+}
+
+footer #New_arrival .read{
+    /* width: 90%; */
+    margin: auto;
+    font-size: 11px;
+    /* word-spacing: 5px; */
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+footer #New_arrival #footer_main #signin{
+    /* border: 2px solid blue; */
+    width: 500px;
+}
+footer #New_arrival #footer_main #mail{
+    /* width: 480px; */
+    /* border: 2px solid green; */
+}
+footer #footer2{
+    /* border: 2px solid red; */
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(5,1fr);
+}
+footer #footer2 div>p{
+    margin-left: 45px;
+}
+footer #footer2  .ft-ha a,#country a,#bottom_line a{
+    text-decoration: none;
+    color: black;
+}
+footer #images_icon{
+    width: 13px;
+} 
+footer .lo-st{
+    margin-top: 50px;
+} 
+footer #images_icon1{
+    width: 20px;
+    margin-top: 30px;
+} 
+footer #footer2 li{
+    list-style: none;
+    line-height: 1.7rem;
+}
+footer #icon{
+    display: flex;
+    width: 28%;
+   justify-content: space-between;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* border: 2px solid blue; */
+}
+
+footer #icon div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 220px;
+}
+footer #icon .app_store{
+    width: 100px;
+    height: 30px;
+}
+footer #icon img{
+    width: 25px;
+    height: 25px;
+
+}
+#sail_image img{
+    width: 100%;
+}
+footer #country{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    /* height: 20px; */
+    font-size: 13px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+footer #country hr,#bottom_line hr{
+    height: 13px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 10px;
+
+}
+#bottom_line{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+#bottom_line #terms{
+    display: flex;
+    
+}
+footer .color{
+    color: #9a9b9b;
+    
+}
+#terms p{
+    margin-right: 10px;
+}
+#bottom_line a{
+    color: #167492;
+}

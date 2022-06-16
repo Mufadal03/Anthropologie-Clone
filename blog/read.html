@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <style>
+        #container{
+            width: 70%;
+            margin: auto;
+            justify-content: center;
+            line-height: 1.5rem;
+            word-spacing: 0.3rem;
+
+        }
+        img{
+            width: 100%;
+            
+        }
+         p{
+            text-align: justify;
+            margin-bottom: 70px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            margin-bottom: 50px;
+            margin-top: 20px ;
+            padding: 0px 200px 0px 100px;
+        }
+        #navbar{
+            display: flex;
+            color: #818181;
+        }
+        #navbar div{
+            margin-left: 40px;
+            
+        }
+        #ft-main{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: auto;
+            color: #818181;
+            /* margin-bottom: -80px; */
+        }
+        hr{
+            width: 70%;
+            margin: auto;
+            margin-top: -55px;
+        }
+        .ft_term{
+            display: flex;
+
+        }
+        .ft_term a,.ft-main p{
+            margin-left: 10px;
+            font-size: 13px;
+            text-decoration: none;
+            color: #818181;
+        }
+        .ft_term img,#images{
+            width: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div><a href=""><img src="https://www.urbn.com/static/images/logo-investor-relations.svg" alt=""></a></div>
+        <div>
+            <p>
+                Who are we</p>
+        </div>
+        <div><p>Our Brand</p></div>
+        <div><p>Invertor relation</p></div>
+        <div><p>Work with US</p></div>
+        <div><p>More...</p></div>
+        </div>
+        <div><p><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" alt="" id="images">
+
+        </p></div>
+    </nav>
+    <div id="container"></div>
+    <footer>
+        <div id="ft-main">
+            <div class="ft_term">
+                <a href=""><p>Urban Outfitters</p></a>
+                <a href=""><p>Free Peoples</p></a>
+                <a href=""><p>Anthropologie</p></a>
+                <a href=""><p>Terrain</p></a>
+                <a href=""><p>BHLDN</p></a>
+                <a href=""><p>Menus & Venues</p></a>
+                <a href=""><p>Nuuly</p></a>
+
+            </div>
+            <div class="ft_term">
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" alt=""></a>
+                <a href=""><img src="http://davidpelandcompany.com/wp-content/uploads/2020/12/facebook-social-media-fb-logo-square.png" alt=""></a>
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/512/1532/1532475.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/urban-outfitters-inc/"><img src="https://www.urbn.com/static/images/icon-linkedin-gray.svg" alt=""></a>
+            </div>
+        </div>
+        <hr>
+        <div id="ft-main">
+            <div class="ft_term">
+                <a href=""><p>Trems of User</p></a>
+                <a href=""><p>Privacy Policy</p></a>
+                <a href=""><p>Contact</p></a>
+                <a href=""><p>Site Map</p></a>
+            </div>
+            <div>
+                <p>2022 Outfitters, Inc.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+
+let data = JSON.parse(localStorage.getItem("blog_posts"))
+console.log(data)
+
+const div1 = document.createElement('div');
+const image1 = document.createElement('img');
+image1.src = data.image1;
+const title1 = document.createElement('h3');
+title1.innerText = data.title1;
+const desc1 = document.createElement('p');
+desc1.innerText = data.desc1;
+
+const image2 = document.createElement('img');
+image2.src = data.image2;
+const title2 = document.createElement('h3');
+title2.innerText = data.title2;
+const desc2 = document.createElement('p');
+desc2.innerText = data.desc2;
+const image3 = document.createElement('img');
+image3.src = data.image3;
+const title3 = document.createElement('h3');
+title3.innerText = data.title3;
+const desc3 = document.createElement('p');
+desc3.innerText = data.desc3;
+const image4 = document.createElement('img');
+image4.src = data.image4;
+const title4 = document.createElement('h3');
+title4.innerText = data.title4;
+const desc4 = document.createElement('p');
+desc4.innerText = data.desc4;
+document.getElementById("container").append(image1,title1,desc1,image2,title2,desc2,image3,title3,desc3,image4,title4,desc4)
+</script>
