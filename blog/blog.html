@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog</title>
-    <link rel="stylesheet" href="/Anthropologie/Home/index.css">
+    <link rel="stylesheet" href="../Home/index.css">
+    <link rel="stylesheet" href="../navbar/navbar.css">
     <style>
         #container{
             width: 90%;
@@ -45,6 +46,7 @@
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="container">
         <div id="blog-img">
             <img src="https://images.ctfassets.net/5de70he6op10/5Ew9PHPiJLjcci0Ul5DUJz/b15a8336c8a6ae69bdd8e0b228690d3f/Jan22_AgreaterGoodLP_LS_01__1_.jpg?w=2882&q=80&fm=webp" alt="">
@@ -68,10 +70,16 @@
     <!-- <a href=""></a> -->
 </body>
 </html>
-<script src="/Anthropologie/blog/product.js"></script>
+<script src="/Anthropologie-Unit3/blog/product.js"></script>
 <script type="module">
     import footer from "/Anthropologie-Unit3/compt/footer.js";
 
     document.getElementById("footer_main").innerHTML = footer()
+
+
+    import navbar from "../components/navbar.js"
+    document.querySelector("#navbar").innerHTML=navbar()
+    import dropdown from "../components/dropdown.js"
+    dropdown()  
 
 </script>
