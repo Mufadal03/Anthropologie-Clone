@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Anthropologie</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      /* *
+      {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        /* width: 90%;
+        margin: auto; */
+      /* } */ 
+      #wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repeat(5, auto); */
+        gap: 1rem;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+      #wrapper img {
+        width: 100%;
+        height: 100%;
+      }
+
+      #wrapper div {
+        /* width: 300px; */
+        /* border: 2px solid red; */
+        /* height: 300px; */
+        position: relative;
+        z-index: 0;
+      }
+      #wrapper .always{
+        position: absolute;
+        /* border: 2px solid red; */
+        background-color: azure;
+        z-index: 1;
+        width: auto;
+        height: 40px;
+        margin-left: 35%;
+        margin-top: -60px;
+        padding: 0px 10px;
+        
+      }
+      #wrapper .always p{
+        text-align: center;
+
+      }
+      #wrapper .always a{
+        text-decoration: none;
+      }
+      #wrapper > div:nth-child(1) {
+        /* background-color: blue; */
+        grid-area: 1/1/2/3;
+        height: 450px;
+      }
+      #wrapper > div:nth-child(2) {
+        /* background-color: red; */
+        height: 330px;
+      }
+      #wrapper > div:nth-child(3) {
+        /* background-color: red; */
+        height: 450px;
+      }
+      #wrapper > div:nth-child(4) {
+        /* background-color: red; */
+        height: 450px;
+      }
+      #wrapper > div:nth-child(5) {
+        /* background-color: red; */
+        margin-top: -110px;
+        height: 330px;
+      }
+      #wrapper > div:nth-child(6) {
+        /* background-color: red; */
+        grid-area: 3/1/4/3;
+        height: 450px;
+      }
+      #wrapper > div:nth-child(7) {
+        /* background-color: red; */
+        height: 330px;
+        margin-top: -220px;
+      }
+      #wrapper > div:nth-child(8) {
+        /* background-color: red; */
+        height: 100px;
+        /* width: 125%; */
+        grid-area: 4/3/5/4;
+        height: 310px;
+        margin-top: -330px;
+      }
+      #wrapper > div:nth-child(9) {
+        /* background-color: green; */
+        height: 450px;
+        grid-area: 5/1/6/4;
+      }
+      #wrapper .sub-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        height: 450px;
+        position: relative;
+      }
+      #wrapper .sub-div div {
+        height: 450px;
+        
+      }
+      #wrapper .sub-div .always{
+        position: absolute;
+        /* border: 2px solid red; */
+        background-color: azure;
+        z-index: 1;
+        width: 40%;
+        height: 40px;
+        margin-left: 10%;
+        margin-top: -60px;
+      }
+      #section_one {
+        /* border: 2px solid red; */
+        /* height: 350px; */
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      #section_one a{
+        text-decoration: none;
+        color: black;
+      } 
+      #section_one #sub_catogeri div img{
+        width: 100%;
+      }
+
+      
+      
+      #explor {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        text-align: center;
+      }
+      #explor #explor_more {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+      }
+
+      #explor #explor_more .div1 img {
+        width: 100%;
+        height: auto;
+      }
+      #explor #explor_more .div1 div {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+      }
+      #about_us {
+        width: 90%;
+        margin: auto;
+      }
+      #about_us p{
+        font-size: 15px;
+        line-height: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Home</h3>
+    <div id="wrapper">
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/vU02u4Ed7W7ZkS5Xs4A9F/8bb4ad56dbd9d0cd603893fd9084015b/M1.jpg?w=1756&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p >
+          <a href="">see what's new</a>
+           </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/6uF9NABF6uJ7dX5OzlTkP1/5caaf9530fa67b857ba73b247b4f182d/RR_Accessories.jpg?w=856&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p ><a href="">shop accessories</a> </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/20iWBHgTWyA4wFUWPuuca/bee8324e9d2b276ba857c43a01bcb8fe/2UP_Dresses.jpg?w=856&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p >
+          <a href="">shop dresses</a>  
+        </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/5KFDrC8FPVViNsVHIErMLE/7536376a0f27b7e56b0a784116135db2/2UP_Getaway.jpg?w=856&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p >          <a href="">visit the getway shop</a>  
+        </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/vNy6x3k0aKYsy4AuErZOp/15cb8a7cc642f6530af5dfdcc54a39f0/RR_Tops.jpg?w=856&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p ><a href="">shop tops</a>  
+        </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/2QGun4PWRx9cuojWlBQtnW/ce87d8a7fe49937b947fb66185e94dd5/3rd-Row-Home_-Shop-the-Assortment-_-Explore-the-LP.jpg?w=1756&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p >          <a href=""> the new collection:party-ready & ready to ship</a>  
+        </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/7jPtxFsyU2ZHnQnEMa223v/36cd69a86c3d89e4f0d7ac2ecd2bc76d/RR_Candle.jpg?w=856&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p >          <a href="">shop candles</a>  
+        </p></div>
+      </div>
+      <div>
+        <a href=""><img
+          src="https://images.ctfassets.net/5de70he6op10/2SsAA9JIKXIjiWgb6o9hew/171d25ebc3c4aaac96c9453b7ca4395b/RR_Furniture.jpg?w=856&q=80&fm=webp"
+          alt=""
+        /></a>
+        <div class="always" ><p ><a href="">shop furniture</a> </p></div>
+      </div>
+      <div class="sub-div">
+        <div>
+          <a href=""><img
+            src="https://images.ctfassets.net/5de70he6op10/5sDk11qKleSdvIOvZc35OD/3eee309aaddeabaa38696b5c92e526a2/4th-Row-2UP_Shop-All.jpg?w=1301&q=80&fm=webp"
+            alt=""
+          /></a>
+          <div class="always" ><p ><a href="">shop the look</a>
+             </p></div>
+        </div>
+        <div>
+          <a href=""><img
+            src="https://images.ctfassets.net/5de70he6op10/6zS5hd8iXJvVo6XdWajuVz/e1938a3f0f4a368c3a42cefe3ae7f37b/4th-Row-2UP_New-Apparel-_-Accessories.jpg?w=1301&q=80&fm=webp"
+            alt=""
+          /></a>
+          <div class="always" ><p ><a href="">shop new clothing & accessories</a> </p></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="section_one">
+      <h3>You May Also Like</h3>
+      <hr />
+      <div class="owl-carousel owl-theme" id="sendTo">
+        <div class="item"><h4>
+          <a href="g"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/66013038_049_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Celma Indoor/Outdoor Pillow</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="g"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/66490830_018_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Sara Campbell picnic Blanket</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="s"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/67553727_010_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Pilcro Woven Leather Flat</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="m"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/66793282_102_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Old Havana pie Dish</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="g"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/58361411_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Fresh Free Spirit Roses Dozen</p>
+      </div></a>
+      </h4></div>
+        <div class="item"><h4>
+            <a href="g"><div>
+          <img src="https://images.urbndata.com/is/image/Anthropologie/B45246403AA_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 " alt="">
+          <p>Peacock Ottoman</p>
+        </div></a>
+        </h4></div>
+        <div class="item"><h4>
+            <a href="m"><div>
+          <img src="https://images.urbndata.com/is/image/Anthropologie/67542654_079_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+          <p>Moxy-Collective Florl Pajama Pants</p>
+        </div></a>
+        </h4></div>
+        <div class="item"><h4>
+            <a href="b"><div>
+          <img src="https://images.urbndata.com/is/image/Anthropologie/43673730_023_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+          <p>Tocca Mini Hand Cream",
+            price: 10</p>
+        </div></a>
+        </h4></div>
+        <div class="item"><h4>
+            <a href="b"><div>
+          <img src="https://images.ctfassets.net/5de70he6op10/5KFDrC8FPVViNsVHIErMLE/7536376a0f27b7e56b0a784116135db2/2UP_Getaway.jpg?w=856&q=80&fm=webp" alt="">
+          <p>Jao Brand Refresher Mini Hand Sanitizer</p>
+        </div></a>
+        </h4></div>
+        <div class="item"><h4>
+            <a href="s"><div>
+          <img src="https://images.urbndata.com/is/image/Anthropologie/66435637_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+          <p>Birkenstock Glenda Sandals</p>
+        </div></a>
+        </h4></div>
+        
+        
+    </div>
+    </div>
+    
+
+    <div id="section_one">
+      <h3>Trending Now</h3>
+      <hr />
+     
+
+    <div class="owl-carousel owl-theme">
+      <div class="item"><h4>
+          <a href="d"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130370060070_059_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Pilcs frined dress</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="c"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130348690162_010_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Maeve Strappy Button-Front Midi Dress</p>
+      </div></a>
+      </h4></div>
+      
+      <div class="item"><h4>
+          <a href="d"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130318350031_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Pilcro Woven</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="c"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130572900012_102_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Sabina Murayev Shine Midi Dress</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="d"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130916210078_082_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>yellow dress</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+        <a href="d"><div>
+      <img src="https://images.urbndata.com/is/image/Anthropologie/4130210690119_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+      <p>Eva franko tie mini dress</p>
+    </div></a>
+    </h4></div>
+      <div class="item"><h4>
+          <a href="d"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130916210042_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>The maris drees</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="d"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130348690159_070_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Rony cobo one shoulder tropical</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="d"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/4130370060073_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Halter slide-slite maxi dress</p>
+      </div></a>
+      </h4></div>
+      <div class="item"><h4>
+          <a href="c"><div>
+        <img src="https://images.urbndata.com/is/image/Anthropologie/64200108_012_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349" alt="">
+        <p>Maeve Printed Wide -leg Pants</p>
+      </div></a>
+      </h4></div>
+      
+  </div>
+    </div>
+
+    
+
+    <div id="explor">
+      <h3>More to Explore</h3>
+      <hr />
+      <div id="explor_more">
+        <div class="div1">
+          <a href="/Anthropologie/blog/blog.html">
+            <img
+              src="https://images.ctfassets.net/5de70he6op10/2p2vZ94vvOAHcr2maK7n4l/7c1ddd4db0b10744446356e9bf5daa29/MTE_Denim-Fit-Guide.jpg?w=856&q=80&fm=webp"
+              alt=""
+            />
+          </a>
+          <div>
+            <h3>Good Jeans: The Denim Fit Guide</h3>
+            <p>
+              Introducing the perfect pairs for every wear. From rise to size,
+              here's how to find your new favorite jeans.
+            </p>
+            <a href="/Anthropologie/blog/blog.html">find your fit</a>
+          </div>
+        </div>
+        <div class="div1">
+          <a href="/Anthropologie/blog/blog.html">
+            <img
+              src="https://images.ctfassets.net/5de70he6op10/5z1SzJjtkNuitP2HKuc7Ww/4f0f76621a8587e50d4b9e96a30edf36/041122_HPG_MTE_GreaterGood.jpg?w=856&q=80&fm=webp"
+              alt=""
+            />
+          </a>
+          <div>
+            <h3>A Greater Good</h3>
+            <p>
+              Our priority: to be a force for good, a greater good, in better
+              service of our planet, its people, and our products.
+            </p>
+            <a href="/Anthropologie/blog/blog.html">learn more about your journey</a>
+          </div>
+        </div>
+        <div class="div1">
+          <a href="/Anthropologie/blog/blog.html">
+            <img
+              src="https://images.ctfassets.net/5de70he6op10/49rdsFgsKhGoiPP98cJnl4/710954132da29d2dbd33de49eeabe5b0/MTE_MarkDSikes.jpg?w=856&q=80&fm=webp"
+              alt=""
+            />
+          </a>
+          <div>
+            <h3>Mark D. Sikes: Exclusively at Anthropologie</h3>
+            <p>
+              Arrange your table with fresh takes on timeless essentials, set in
+              the esteemed designer's signature color palette.
+            </p>
+            <a href="/Anthropologie/blog/blog.html">shop the Poppy collection</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about_us">
+      <hr />
+      <h3>
+        About Us</h3>
+        <p>
+          Our mission at Anthropologie has always been to surprise and delight
+          you with unexpected, distinctive finds for your closet and home. We
+          source and craft all of our products with care, ensuring that any
+          treasure you find at Anthropologie is unique, just like you. Explore
+          our <a href="">dress shop</a> to find styles and fits perfect for any
+          occasi...
+        </p>
+        <p><a href="">Read More</a></p>
+      
+    </div>
+
+    <div id="footer_main" >
+      
+    </div>
+    
+
+
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    // autoPlay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+<a href="/Anthropologie/components/footer.js"></a>
+  </body>
+</html>
+<script src="product.js"></script>
+<script type="module">
+  import footer from "/Anthropologie/components/footer.js";
+ 
+ document.getElementById("footer_main").innerHTML = footer()
+
+let input = document.getElementById("input_main")
+let btn = document.getElementById("submit_main")
+btn.addEventListener("click",function(){
+  alert("SUCCESS");
+  })
+</script>

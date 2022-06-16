@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="/Anthropologie/Home/index.css">
+    <style>
+        #container{
+            width: 90%;
+            margin: auto;
+        }
+        #container #blog-img img,#blog_conserve img,#blog_partners img,#blog_source img{
+            width: 100%;
+        }
+        #blog_conserve,#blog_partners,#blog_source{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 1rem;
+        }
+        .style1{
+            font-size: 25px;
+            color: green;
+            width: 100%;
+            /* border: 2px solid red; */
+        }
+        .style1 h4{
+            text-align: center;
+        }
+        span{
+            font-style: italic;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .style1 hr{
+            margin-top:-20px ;
+            margin-bottom: 20px;
+        }
+        #blog_source{
+            margin-bottom: 50px;
+        }p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="blog-img">
+            <img src="https://images.ctfassets.net/5de70he6op10/5Ew9PHPiJLjcci0Ul5DUJz/b15a8336c8a6ae69bdd8e0b228690d3f/Jan22_AgreaterGoodLP_LS_01__1_.jpg?w=2882&q=80&fm=webp" alt="">
+        </div>
+        <div class="style1"><h4>1. Conserve  <span> for a great good</span></h4><hr></div>
+        <div id="blog_conserve">
+            
+        </div>
+        <div class="style1"><h4>2. Partnres  <span> for a great good</span></h4><hr></div>
+        <div id="blog_partners">
+            
+        </div>
+        <div class="style1"><h4>3. Source  <span> for a great good</span></h4><hr></div>
+        <div id="blog_source">
+            
+        </div>
+    </div>
+    <div id="footer_main">
+
+    </div>
+    <a href="/Anthropologie/blog/read.html"></a>
+</body>
+</html>
+<script src="/Anthropologie/blog/product.js"></script>
+<script type="module">
+    import footer from "/Anthropologie/components/footer.js";
+
+    document.getElementById("footer_main").innerHTML = footer()
+
+</script>
