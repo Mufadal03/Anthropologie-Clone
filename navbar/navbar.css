@@ -11,6 +11,7 @@
         z-index: 1;
 }
 
+
 #upper_nav{
     height: 5vh;
     background-image: url("../navbar/icon/upper01.png");
@@ -38,13 +39,17 @@
     width: 95%;
     margin: auto;
     justify-content: space-between;
+    /* border: 1px solid green; */
+    /* height: 50px; */
 }
+
 #lower_nav>#logo>#main_logo{
     border-right: 1px solid gray;
     border-left: 1px solid gray;
     border-top: 4px solid #167A92;;
     padding: 20px;
     margin-right: 5px;
+    /* border: 2px solid red; */
 }
 #lower_nav>#logo>#alt_logo{
     padding: 10px;

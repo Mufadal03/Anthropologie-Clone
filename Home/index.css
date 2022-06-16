@@ -43,6 +43,15 @@ footer #New_arrival #footer_main #signin{
     /* border: 2px solid blue; */
     width: 500px;
 }
+footer #signin h2{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+footer #signin p{
+    font-weight: 100;
+    /* font-size: 13px; */
+    line-height: 1.2rem;
+}
 footer #New_arrival #footer_main #mail{
     /* width: 480px; */
     /* border: 2px solid green; */
@@ -52,27 +61,35 @@ footer #footer2{
     display: grid;
     width: 80%;
     grid-template-columns: repeat(5,1fr);
+    margin-top: 35px;
+    font-size: 13px;
 }
 footer #footer2 div>p{
-    margin-left: 45px;
+    /* margin-left: 45px; */
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 footer #footer2  .ft-ha a,#country a,#bottom_line a{
     text-decoration: none;
     color: black;
+    /* font-size: 10px; */
 }
 footer #images_icon{
     width: 13px;
 } 
 footer .lo-st{
-    margin-top: 50px;
+    /* margin-top: 50px; */
 } 
 footer #images_icon1{
     width: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
 } 
+
+
 footer #footer2 li{
     list-style: none;
-    line-height: 1.7rem;
+    line-height: 2rem;
+    /* font-size: 10px; */
 }
 footer #icon{
     display: flex;
@@ -116,16 +133,16 @@ footer #country hr,#bottom_line hr{
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 15px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
 
 }
-#bottom_line{
+footer #bottom_line{
     display: flex;
     font-size: 13px;
     justify-content: space-between;
 }
-#bottom_line #terms{
+footer #bottom_line #terms{
     display: flex;
     
 }
@@ -133,9 +150,9 @@ footer .color{
     color: #9a9b9b;
     
 }
-#terms p{
+footer #terms p{
     margin-right: 10px;
 }
-#bottom_line a{
+footer #bottom_line a{
     color: #167492;
 }
