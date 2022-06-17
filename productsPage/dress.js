@@ -444,7 +444,8 @@ function handleBrandFilter() {
 
             function addLocal(data) {
                 localStorage.setItem("ProductDetails", JSON.stringify(data));
-                window.location.href = "dress.html"
+                                window.location.href = "../productDetailsPage/productDetails.html"
+
             }
 
 
