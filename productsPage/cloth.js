@@ -362,16 +362,13 @@ function handleBrandFilter() {
 
             var div = document.createElement("div");
             div.setAttribute("id", "sh-mainDiv");
-            // div.addEventListener("click", function() {
-            //     // addLocal(array1[i])
-            //     console.log("Show me details")
-            //     alert("Show me details")
-            // })
+            div.addEventListener("click", function() {
+                addLocal(array1[i])
+            })
 
             function addLocal(data) {
                 localStorage.setItem("ProductDetails", JSON.stringify(data));
-                // window.location.href = "../productDetailsPage/productDetails.html"
-                alert("Show Details")
+                window.location.href = "../productDetailsPage/productDetails.html"
             }
 
 

@@ -325,7 +325,8 @@ function handleBrandFilter() {
 
             function addLocal(data) {
                 localStorage.setItem("ProductDetails", JSON.stringify(data));
-                window.location.href = "garden.html"
+                window.location.href = "../productDetailsPage/productDetails.html"
+
             }
 
 
