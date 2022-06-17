@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sh-container {
+    /* height: 6000px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#sh-sidebar {
+    height: 3000px;
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+
+#sh-hr1 {
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+#sh-p2 {
+    color: teal;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sh-p3 {
+    /* border: 1px solid red; */
+    width: 60%;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.sh-p3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#sh-p4 {
+    margin-top: 40px;
+}
+
+#sh-main {
+    /* height: 90%; */
+    width: 82%;
+    /* border: 1px solid red; */
+}
+
+#sh-right-head {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#sh-right-head>div {
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 2%;
+    width: 35%;
+}
+
+#sh-head2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 1%;
+    margin-top: 16px;
+}
+
+#sh-right-head>div>p {
+    font-size: 13px;
+    color: grey;
+    margin: 25px 0px 0px 3px;
+}
+
+.sh-sortby {
+    text-align: right;
+    margin-top: -10px;
+}
+
+#sh-sort {
+    height: 30px;
+    margin-top: 17px;
+    align-items: right;
+    /* border-radius: 5px; */
+}
+
+#sh-product {
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2%;
+}
+
+.sh-image1 {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#sh-mainDiv {
+    /* border: 1px solid green; */
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+#filter {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#footer_main {
+    margin-top: -750px;
+}
