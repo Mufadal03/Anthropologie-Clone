@@ -31,17 +31,17 @@ let navbar = () => {
             </div>
             <div id="category">
                 <ul>
-                    <li class = "li"> <a href=""> New!</a></li>
-                    <li class = "li"> <a href=""> Dresses </a></li>
-                    <li class = "li"> <a href=""> Clothing </a></li>
-                    <li class = "li"> <a href=""> Shoes </a></li>
-                    <li class = "li"> <a href=""> Accessories </a></li>
-                    <li class = "li"> <a href=""> Gift & Candles </a></li>
-                    <li class = "li"> <a href=""> Home & Furniture </a></li>
-                    <li class = "li"> <a href=""> Beauty & wellness </a></li>
-                    <li class = "li"> <a href=""> Garden & Outdoor </a></li>
-                    <li class = "li"> <a href=""> Weddings </a></li>
-                    <li class = "li"> <a href=""> Sale </a></li>
+                    <li class = "li"> <a href="../productsPage/cloth.html"> New!</a></li>
+                    <li class = "li"> <a href="../productsPage/dress.html"> Dresses </a></li>
+                    <li class = "li"> <a href="../productsPage/cloth.html"> Clothing </a></li>
+                    <li class = "li"> <a href="../productsPage/shoes.html"> Shoes </a></li>
+                    <li class = "li"> <a href="../productsPage/cloth.html"> Accessories </a></li>
+                    <li class = "li"> <a href="../productsPage/garden.html"> Gift & Candles </a></li>
+                    <li class = "li"> <a href="../productsPage/garden.html"> Home & Furniture </a></li>
+                    <li class = "li"> <a href="../productsPage/cloth.html"> Beauty & wellness </a></li>
+                    <li class = "li"> <a href="../productsPage/garden.html"> Garden & Outdoor </a></li>
+                    <li class = "li"> <a href="../productsPage/dress.html"> Weddings </a></li>
+                    <li class = "li"> <a href="../productsPage/cloth.html"> Sale </a></li>
                 </ul>
             </div>
             <div id="drop_downs">
@@ -49,13 +49,13 @@ let navbar = () => {
                     <div id="left">
                         <div id="left_content">
                             <h3 class="title">Shop By Category </h3>
-                            <a href="#">Accessories</a>
-                            <a href="">Beauty & Wellness</a>
-                            <a href="">Clothing </a>
-                            <a href="">Dresses</a>
-                             <a href="">Home Fruniture</a>
-                            <a href="">Plus</a>
-                            <a href="">Shoe</a>
+                            <a href="../productsPage/cloth.html">Accessories</a>
+                            <a href="../productsPage/dress.html">Beauty & Wellness</a>
+                            <a href="../productsPage/cloth.html">Clothing </a>
+                            <a href="../productsPage/dress.html">Dresses</a>
+                             <a href="../productsPage/garden.html">Home Fruniture</a>
+                            <a href="../productsPage/shoes.html">Plus</a>
+                            <a href="../productsPage/shoes.html">Shoe</a>
                         </div>
                         
                     </div>
