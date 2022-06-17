@@ -52,10 +52,6 @@ footer #signin p{
     /* font-size: 13px; */
     line-height: 1.2rem;
 }
-footer #New_arrival #footer_main #mail{
-    /* width: 480px; */
-    /* border: 2px solid green; */
-}
 footer #footer2{
     /* border: 2px solid red; */
     display: grid;
@@ -76,9 +72,6 @@ footer #footer2  .ft-ha a,#country a,#bottom_line a{
 }
 footer #images_icon{
     width: 13px;
-} 
-footer .lo-st{
-    /* margin-top: 50px; */
 } 
 footer #images_icon1{
     width: 20px;

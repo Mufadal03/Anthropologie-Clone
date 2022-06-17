@@ -12,7 +12,7 @@ let navbar = () => {
         <div class="main_navbar">     
             <div id="lower_nav">
                 <div id="logo">
-                <a href="">
+                <a href="../Home/index.html">
                 <img src="https://images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg"
                         alt="" id="main_logo"></a>
                 <a href="">
