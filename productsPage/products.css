@@ -98,6 +98,7 @@
     /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
     grid-column-gap: 2%;
 }
 
@@ -120,5 +121,5 @@
 }
 
 #footer_main {
-    margin-top: -750px;
+    margin-top: -450px;
 }
