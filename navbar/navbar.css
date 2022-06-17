@@ -9,7 +9,7 @@
     background-color: white;
     position: sticky;
     top: -11vh;
-    z-index: 1;
+    z-index: 2;
 }
 
 #upper_nav {
@@ -47,17 +47,14 @@
     /* height: 50px; */
 }
 
-#lower_nav>#logo>#main_logo {
+#main_logo{
     border-right: 1px solid gray;
     border-left: 1px solid gray;
     border-top: 4px solid #167A92;
-    ;
     padding: 20px;
-    margin-right: 5px;
-    /* border: 2px solid red; */
 }
 
-#lower_nav>#logo>#alt_logo {
+#alt_logo {
     padding: 10px;
 }
 
@@ -131,7 +128,6 @@
 
 #drop_downs {
     margin-left: 30px;
-    width: 65%;
     display: none;
     z-index: 1;
     /* z-index: -10; */
@@ -148,7 +144,7 @@
 
 #left {
     display: flex;
-    width: 40%;
+    width: 30%;
 }
 
 #right {
@@ -185,8 +181,9 @@
 }
 
 #right02 {
-    padding: 20px;
+    padding: 10px;
     width: 50%;
+    text-align: center;
     border: 1px solid;
 }
 
