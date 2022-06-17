@@ -15,7 +15,7 @@ let navbar = () => {
                 <a href="../Home/index.html">
                 <img src="https://images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg"
                         alt="" id="main_logo"></a>
-                <a href="">
+                <a href="../AnthrolivingHome/home.html">
                 <img src="https://images.ctfassets.net/5de70he6op10/y1O9tEDOvCGliGUvT9RoJ/eb8ab4734c5e3778b8b61da70ed441ac/AL_NewLogo_2.svg"
                         alt="" id="alt_logo"></a>
 

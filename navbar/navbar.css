@@ -19,6 +19,7 @@
     position: sticky;
     top: -11vh;
     z-index: 2;
+    font-size: 15px;
 }
 
 #upper_nav {
