@@ -1,27 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif; 
+    font-family: 'Mulish', sans-serif;
 }
-#navbar{
-    background-color: white;   
+
+#navbar {
+    background-color: white;
     position: sticky;
-        top:-11vh;
-        z-index: 1;
+    top: -11vh;
+    z-index: 1;
 }
 
-
-#upper_nav{
+#upper_nav {
     height: 5vh;
     background-image: url("../navbar/icon/upper01.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-#search::placeholder{
+
+#search::placeholder {
     color: teal;
 }
-#mid_nav{
+
+#mid_nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -29,11 +31,13 @@
     border-bottom: 1px solid;
     background-color: rgb(239, 239, 239);
 }
-#mid_nav>p{
+
+#mid_nav>p {
     margin: 0px 20px 0px 5px;
     color: #167A92;
 }
-#lower_nav{
+
+#lower_nav {
     display: flex;
     align-items: center;
     width: 95%;
@@ -43,73 +47,89 @@
     /* height: 50px; */
 }
 
-#lower_nav>#logo>#main_logo{
+#lower_nav>#logo>#main_logo {
     border-right: 1px solid gray;
     border-left: 1px solid gray;
-    border-top: 4px solid #167A92;;
+    border-top: 4px solid #167A92;
+    ;
     padding: 20px;
     margin-right: 5px;
     /* border: 2px solid red; */
 }
-#lower_nav>#logo>#alt_logo{
+
+#lower_nav>#logo>#alt_logo {
     padding: 10px;
 }
 
-#lower_nav>#search{
+#lower_nav>#search {
     margin-right: 30px;
     width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#lower_nav>#search>input{
+
+#lower_nav>#search>input {
     height: 30px;
     width: 80%;
     padding: 10px 5px;
 }
+
+
 /* .fa-bag-shopping{
     font-size: 25px;
     color: teal;
 } */
-#category{
+
+#category {
     border: 1px solid;
     height: 8vh;
-    
 }
-#category>ul{
+
+#category>ul {
     display: flex;
     justify-content: space-evenly;
 }
-#category>ul>li{
+
+#category>ul>li {
     list-style: none;
     padding: 20px 0px;
 }
-#category>ul>li:hover{
-    border-bottom: 3px solid #167A92;;
+
+#category>ul>li:hover {
+    border-bottom: 3px solid #167A92;
+    ;
 }
-#category>ul>li>a{
+
+#category>ul>li>a {
     text-decoration: none;
     color: black;
 }
-#category>ul>li>a:hover{
+
+#category>ul>li>a:hover {
     color: #167A92;
 }
-#bag_logo{
+
+#bag_logo {
     height: 30px;
     cursor: pointer;
 }
-#user_pic{
+
+#user_pic {
     height: 20px;
 }
-#user_info{
+
+#user_info {
     text-decoration: none;
     color: teal;
     font-size: 17px;
 }
-#globe{
+
+#globe {
     height: 25px;
 }
-#drop_downs{
+
+#drop_downs {
     margin-left: 30px;
     width: 65%;
     display: none;
@@ -117,50 +137,59 @@
     /* z-index: -10; */
     /* display: none; */
 }
-#drop_downs:hover{
+
+#drop_downs:hover {
     display: block;
 }
-#content{
-    display: flex;
 
-}
-#left{
-    display: flex;
-    width: 40%;    
-}
-#right{
+#content {
     display: flex;
 }
-.title{
+
+#left {
+    display: flex;
+    width: 40%;
+}
+
+#right {
+    display: flex;
+}
+
+.title {
     color: rgb(77, 77, 77);
-    text-align: left; 
+    text-align: left;
     padding: 10px;
     border-bottom: 1px solid;
 }
-#left_content{
+
+#left_content {
     display: flex;
     flex-direction: column;
     padding: 10px;
     border: 1px solid;
     width: 100%;
 }
-#drop_downs a{
+
+#drop_downs a {
     text-decoration: none;
     color: black;
-    margin: 8px ;
+    margin: 8px;
 }
-#left02{
+
+#left02 {
     width: 50%;
     display: flex;
     flex-direction: column;
     padding: 10px;
     border: 1px solid;
 }
-#right02{
+
+#right02 {
     padding: 20px;
     width: 50%;
     border: 1px solid;
 }
-#drop_downs a:hover{
+
+#drop_downs a:hover {
     text-decoration: underline;
 }
