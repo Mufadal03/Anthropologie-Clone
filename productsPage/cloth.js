@@ -234,7 +234,7 @@ function display(list) {
 
         function addLocal(data) {
             localStorage.setItem("ProductDetails", JSON.stringify(data));
-            window.location.href = "cloth.html"
+            window.location.href = "../productDetailsPage/productDetails.html"
         }
         var img = document.createElement("img");
         img.setAttribute("class", "sh-image1");
@@ -362,13 +362,16 @@ function handleBrandFilter() {
 
             var div = document.createElement("div");
             div.setAttribute("id", "sh-mainDiv");
-            div.addEventListener("click", function() {
-                addLocal(array1[i])
-            })
+            // div.addEventListener("click", function() {
+            //     // addLocal(array1[i])
+            //     console.log("Show me details")
+            //     alert("Show me details")
+            // })
 
             function addLocal(data) {
                 localStorage.setItem("ProductDetails", JSON.stringify(data));
-                window.location.href = "cloth.html"
+                // window.location.href = "../productDetailsPage/productDetails.html"
+                alert("Show Details")
             }
 
 

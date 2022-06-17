@@ -1,0 +1,111 @@
+#details{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+#details_left{
+    width: 40%;
+    text-align: center;
+}
+#details_left>#poster{
+    width: 100%;
+}
+#details_right{
+    width: 50%;
+    padding: 0px 20px;
+    position: relative;
+    border-right: 1px solid;
+}
+.fa-star{
+    font-size: 15px;
+    color: #4b5666;
+}
+#wr{
+    color: teal;
+}
+#size{
+    font-size: 20px;
+}
+#option>span{
+    padding: 10px;
+    margin-right:10px;
+    background-color: rgb(239, 239, 239);
+}
+#option>span:hover{
+    border: 1px solid teal;
+    cursor: pointer;
+}
+#size{
+    margin-bottom: 20px;
+}
+#add{
+    padding: 10px 30px;
+    width: 80%;
+    font-size: 20px;
+    background-color: #4b5666;
+    border: 1px solid #4b5666;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+}
+#add:hover{
+    background-color: white;
+    border: 1px solid #4b5666;
+    color: #4b5666;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+#prod_name{
+    margin: 10px 0px 20px 20px ;
+}
+#prod_name+i{
+    margin-left:20px ;
+}
+#prod_price,
+#size,
+#option {
+    margin: 20px;
+}
+#qt,#quantity{
+    margin: 5px 20px;
+}
+#fits{
+    width: 35%;
+    margin: 30px 30px;
+    padding: 10px;
+    border: 1px solid teal;
+}
+#quantity{
+    padding: 5px 20px;
+    font-size: 18px;
+}
+#display>div>img{
+    height: 400px;
+}
+#recommendation{
+    width: 95%;
+    margin:50px auto;
+}
+#recommendation>h2{
+    margin:10px 0px
+}
+#display{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+#display>div>p{
+    padding: 10px;
+    color: teal;
+}
+#offer{
+    background-image: url("img.png");
+    height: 10vh;
+    background-size: contain;
+    margin:40px auto;
+    background-repeat: no-repeat;
+}   

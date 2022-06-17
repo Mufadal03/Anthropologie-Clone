@@ -317,7 +317,8 @@ function display(list) {
 
         function addLocal(data) {
             localStorage.setItem("ProductDetails", JSON.stringify(data));
-            window.location.href = "shoes.html"
+            window.location.href = "../productDetailsPage/productDetails.html"
+
         }
         var img = document.createElement("img");
         img.setAttribute("class", "sh-image1");

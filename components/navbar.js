@@ -27,6 +27,7 @@ let navbar = () => {
                     <input type="search" placeholder="Search Anthropologie" id="search">
                     <!-- <i class="fa-solid fa-bag-shopping"></i> -->
                     <img src="../navbar/icon/bag-svgrepo-com.svg" alt="" id="bag_logo">
+                    <span id="count">0</span>
                 </div>
             </div>
             <div id="category">

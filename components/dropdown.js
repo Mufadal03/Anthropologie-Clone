@@ -22,6 +22,8 @@ let dropdown = () => {
         document.querySelector("#drop_downs").style.display = "none"
 
         })
+    let d = JSON.parse(localStorage.getItem("CartItem"))||[]
+    if (d.length!=0){ document.querySelector("#count").innerText = d.length }
 
 }
 export default dropdown

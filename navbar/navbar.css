@@ -4,7 +4,16 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
-
+#count{
+    color: white;
+    font-size: 10px;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25%;
+    right: 2%;
+}
 #navbar {
     background-color: white;
     position: sticky;
@@ -45,6 +54,7 @@
     justify-content: space-between;
     /* border: 1px solid green; */
     /* height: 50px; */
+    position: relative;
 }
 
 #main_logo{
