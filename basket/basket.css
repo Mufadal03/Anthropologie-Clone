@@ -1,0 +1,83 @@
+#top, #st,#like{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* scroll-behavior: smooth; */
+    overflow: scroll;
+    overflow: hidden;
+justify-content: space-between;
+}
+h2{
+    margin-left: 20px;
+}
+#append,#save{
+       width: 90%;
+    margin: auto;
+position: relative;
+}
+#append img,#save img{
+    width:100%;
+}
+#append>div,#save>div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+    /* margin-left: 5px; */
+}
+select{
+    width: 100%;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+}
+#append>div *{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+/* #append button:nth-child(1){
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 90%;
+    background-color: aqua;
+    
+} */
+#pay{
+    width: 90%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 5px;
+}
+#maje *,#pay a ~ div{
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: space-between;
+
+}
+#pay button{
+    /* display: block; */
+    width: 100%;
+    height: 60px;
+margin-top: 5px;
+
+    
+}
+
+button:hover{
+    background-color: rgba(146, 185, 46, 0.645);
+    color: rgb(15, 11, 6);
+    cursor: pointer;
+}
+
+#remove,#save{
+    width: 100%;
+    height: 25px;
+    margin: 4px;
+    /* text-align: center; */
+/* justify-content: center; */
+padding: 3px;
+
+margin-left: 20px;
+}

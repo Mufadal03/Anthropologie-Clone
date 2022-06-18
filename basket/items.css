@@ -1,0 +1,19 @@
+#shippick{
+    display: flex;
+    justify-content: space-around;
+}
+#inputs{
+    width: 90%;
+    margin: auto;
+}
+input,select{
+    height: 35px;
+background-color: rgb(222, 232, 232);
+}
+.sameline{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+
+}
+

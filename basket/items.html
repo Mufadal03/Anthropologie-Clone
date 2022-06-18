@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./basket.css">
+<link rel="stylesheet" href="./items.css">
+<link rel="stylesheet" href="../navbar/navbar.css">
+<body>
+    <div id="navbar"></div>
+        <div id="shippick">
+          <a href=""> <h2>Ship</h2></a> 
+            <a href=""><h2>Pick Up</h2></a>
+        </div>
+
+<hr>
+<hr>
+
+<h2>Shipping Address</h2>
+
+<form id="inputs">
+    <p>Country/Region*</p>
+<select name="" id="">
+    <option value="India">India</option>
+ <option value="Indonesia">Indonesia</option>
+ <option value="Pakistan">Pakistan</option>
+ <option value="America">America</option>
+ <option value="UK">UK</option>
+ <option value="Canada">Canada</option>
+ <option value="Brazil">Brazil</option>
+ <option value="Shri_Lanka">Shri_Lanka</option>
+ <option value="Nepal">Nepal</option>
+     <option value="China">China</option>
+</select>
+
+<p>Name*</p>
+<div class="sameline">
+
+    <input type="text" id="n" required placeholder="Fisrt Name">
+    <!-- <p>Last Name*</p> -->
+    <input type="text" id="l" required placeholder="Last Name">
+    
+</div>
+<p>Address*</p>
+
+<div class="sameline">
+
+    <input type="text" id="a" required placeholder="Street Address">
+    <!-- <p>Address 2</p> -->
+    <input type="text" placeholder="Address 2">
+</div>
+    <p>City*</p>
+
+    <div class="sameline">
+
+        <input type="text" id="c" required placeholder="city">
+        <!-- <p>Province or Region</p> -->
+        <input type="text" placeholder="Province or Region">
+    </div>
+        <p>Passcode</p>
+        <input type="text" name="" required id="p" placeholder="Passcode">
+
+
+
+    <p>Daytime Phone</p>
+    <input type="text" required placeholder="Do no enter a country code" name="" id="p2">
+
+
+
+</form>
+
+
+<h2>Order Summary</h2>
+
+<div id="pay">
+    <div id="maje">
+    
+        <div><p>Subtotal</p>
+            <p id="subtotal"></p></div>
+            <div>
+        <p>Shipping</p>
+        <p>$60.00</p>
+    </div>
+    <div>
+        <p>Estimated Tax</p>
+        <p>$0.00</p>
+    </div>
+    <div>
+        <p>Total</p>
+        <p id="paytotal"></p>
+    </div>
+    </div>
+    <!-- <a href="./items.html">
+        
+        <button>Ship to this address</button>
+    </a> -->
+    <div id="but"></div>
+    
+    <div>
+        <p>Promo Code</p>
+        <h4>+</h4>
+    </div>
+    
+    
+    </div>
+    <div id="footer">
+        <!-- import footer -->
+    </div>
+</body>
+</html>
+<script type="module" src="./items.js"></script>
