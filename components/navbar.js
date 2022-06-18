@@ -26,8 +26,10 @@ let navbar = () => {
                 <div id="search">
                     <input type="search" placeholder="Search Anthropologie" id="search">
                     <!-- <i class="fa-solid fa-bag-shopping"></i> -->
+                    <a href="../basket/basket.html">
                     <img src="../navbar/icon/bag-svgrepo-com.svg" alt="" id="bag_logo">
-                    <span id="count">0</span>
+                    <span id="count">0</span></a>
+                    
                 </div>
             </div>
             <div id="category">
