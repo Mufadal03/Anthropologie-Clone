@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Anthropologie-Unit3/sign/style/myAcc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../navbar/navbar.css">
+<link rel="stylesheet" href="../Home/index.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+  
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="cont">
+        <div class="sec1">
+<div class="headder1">
+    <h3>
+        My Account
+    </h3>
+</div>
+<div class="headder2">
+    <ul>
+        <li><a href="#" target="blank">Dashboard</a></li>
+        <li><a href="#" target="blank">Personal Profile</a></li>
+        <li><a href="#" target="blank">Addresses & Payments</a></li>
+        <li><a href="#" target="blank">Order History</a></li>
+        <li><a href="#" target="blank">Wish List</a></li>
+        <li><a href="#" target="blank">Registry</a></li>
+        <li><a onclick="logout()" target="blank">Log Out</a></li>
+
+    </ul>
+</div>
+        </div>
+        <div class="sec2">
+<div class="box1">
+    <div class="head">
+<h2>
+    Account Info
+</h2>
+<a href="#" target="blank">Manage</a>
+</div>
+<p class="bb"></p>
+    <div class="box">
+
+    </div>
+</div>
+<div class="box2">
+    <div class="head">
+        <h2>
+            Addresses & Payments
+        </h2>
+        
+        <a href="#" target="blank">Manage</a>
+    </div>
+    <p class="bb"></p>
+    <div class="bont2">
+<p>You haven't saved any addresses or payment methods.</p>
+    </div>
+</div>
+<div class="box3">
+    <div class="head">
+        <h2>
+            Order History
+        </h2>
+        
+        <a href="#" target="blank">Manage</a>
+    </div>
+    <p class="bb"></p>
+    <div class="bont3">
+<p>You don't have any recent orders.</p>
+<button class="shop_new">SHOP WHAT'S NEW</button>
+    </div>
+</div>
+        </div>
+    </div>
+    <div id="footer_main"></div>
+
+</body>
+</html>
+<script type="module">
+     import navbar from "../components/navbar.js"
+    document.querySelector("#navbar").innerHTML = navbar()
+    import dropdown from "../components/dropdown.js"
+    dropdown()
+    
+    import footer from "/Anthropologie-Unit3/compt/footer.js";
+    
+    document.getElementById("footer_main").innerHTML = footer()   
+</script>
+
+<script>
+    let disdata=JSON.parse(localStorage.getItem("tempuser"))
+    let box=document.querySelector(".box")
+    display()
+    function display(){
+        // cont.innerHtml=[]
+       disdata.forEach((el)=>{
+        let name=document.createElement("p")
+        name.innerText="Name : "+el.firstname+el.lastName
+let email=document.createElement("p")
+email.innerText="Email : "+el.email
+let mn=document.createElement("p")
+mn.innerText="Mobil Number : "+el.call
+let pitch=document.createElement("p")
+pitch.innerText="AnthroPerks Member: since 2022"
+let birth=document.createElement("p")
+birth.innerText="Birthday : "+el.data+" "+el.mounth
+box.append(name,email,mn,pitch,birth)
+})
+    }
+
+    function logout(){
+        let arr=[]
+        localStorage.setItem("userAuthCode",JSON.stringify(arr))
+        window.location.href="/Anthropologie-Unit3/Home/index.html"
+    }
+</script>
+
+<script src="/Anthropologie-Unit3/sign/signin.js" type="module"></script>
+
+
+<!-- <div class="page">
+    <div class="nav">
+        <p id="singMyAco"></p>
+    </div>
+    <div class="block"> 
+       
+    </div>
+</div> -->

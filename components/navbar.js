@@ -7,7 +7,7 @@ let navbar = () => {
             <img src="./icon/globe-svgrepo-com.svg" alt="" id="globe">
             <p>English</p>
             <img src="../navbar/icon/user-profile-svgrepo-com.svg" alt="" id="user_pic">
-            <p><a href="#" id="user_info">sign in / sign up</a></p>
+            <p id="singMyAco"></p>
         </div>
         <div class="main_navbar">     
             <div id="lower_nav">
