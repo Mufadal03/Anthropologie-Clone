@@ -1,0 +1,152 @@
+*{
+    text-transform: uppercase;
+}
+#pbox{
+    /* display: grid; */
+    /* grid-template-columns: repeat(1,1fr); */
+    border: 1px solid;
+    width: 400px;
+    /* justify-content: end; */
+    margin: auto;
+
+    align-items: center;
+}
+#pbox input{
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+.fa-cc-visa{
+    border-radius: 10px;
+    margin: 0 0 0px 115px;
+    
+}
+
+p,em,span{
+    font-size: 20px;
+   padding: 0;
+   
+   /* margin: -10px 0 0 0; */
+}
+/* em,span{
+    margin-top: -20px 0 0 0;
+} */
+
+#front:hover{
+    backface-visibility: hidden;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform .4s ease-out;
+}
+
+#back:hover{
+    backface-visibility: hidden;
+    transform: perspective(1000px) rotateY(180deg);
+    transition: transform .4s ease-out;
+
+}
+/* #front:hover{
+      transform: perspective(1000px) rotateY(180deg);
+       transition: transform .4s ease-out;
+}
+
+#back:hover{
+      transform: perspective(1000px) rotateY(0deg);
+       transition: transform .4s ease-out;
+} */
+#submit{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    break-before: 10px;
+    
+}
+/* *:hover{
+margin-top: 3px;
+}
+ */
+ #card-container{
+     position: relative;
+     /* background-color: rgb(113, 113, 17); */
+     /* padding-bottom: -150px; */
+     padding: 200px 0 0 0 ;
+     width: 80%;
+margin: auto;
+ }
+ #front{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 200px;
+     border-radius: 10px;
+     /* height: 100%; */
+     backface-visibility: hidden;
+     transform: perspective(1000px) rotateY(0deg);
+     transition: transform 4s ease-out;
+     background: linear-gradient(45deg,blueviolet,deeppink);
+ }
+ #back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+height: 200px;
+    /* height: 100%; */
+    backface-visibility: hidden;
+    transform: perspective(1000px) rotateY(-180deg);
+    transition: transform 4s ease-out;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    text-align: right;
+}
+img{
+    width: 90px;
+    /* height: px; */
+    /* background-color: aqua; */
+}
+.flexox{
+    background-color: aliceblue;
+    width: 100px;
+    margin-left: 220px;
+}
+hr{
+    height: 26px;
+    background-color: black;
+    border: 0px;
+}
+.inputbox{
+    margin: 8px 0;
+    border-radius: 12px;
+}
+.cardnum{
+    margin: 20px 0 20px 8px;
+}
+span{
+    margin-left: 8px;
+}
+#pbox{
+    background-color: aliceblue;
+   box-shadow:30px 30px 50px rgb(31, 225, 183),0 0 80px rgb(255, 255, 255),80px 500px 160px rgb(6, 65, 213);
+    ;
+}
+body{
+    
+  background-repeat: round;
+  background-color: rgb(241, 241, 241);
+}
+ .expiryv{
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.image~*{
+    margin-left: 6px;
+}
+ .fa ,.fa-cc-visa{
+    margin-right: 10px;
+    /* height: 30px; */
+ }
+ #shipping{
+    text-align: center;
+  background-color: aquamarine;
+ }
