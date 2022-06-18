@@ -11,7 +11,8 @@ p,a{
 }
 p{
     color: #747171;
-    line-height:25px
+    line-height:25px;
+    margin-top:7px;
 }
 .cont{
     display: grid;
