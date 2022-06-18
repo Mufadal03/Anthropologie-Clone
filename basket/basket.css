@@ -3,22 +3,21 @@
     margin: auto;
     display: flex;
     /* scroll-behavior: smooth; */
-    overflow: scroll;
-    overflow: hidden;
+   
 justify-content: space-between;
 }
 h2{
     margin-left: 20px;
 }
-#append,#save{
+#append,#saved{
        width: 90%;
     margin: auto;
 position: relative;
 }
-#append img,#save img{
+#append img,#saved img{
     width:100%;
 }
-#append>div,#save>div{
+#append>div,#saved>div{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     
@@ -80,4 +79,33 @@ button:hover{
 padding: 3px;
 
 margin-left: 20px;
+}
+#two{
+    display: flex;
+}
+#one{
+    width: 70%;
+    
+}
+#one ~div{
+    width: 29%;
+}
+#one~div img{
+    width: 80%;
+    height: 80%;
+}
+
+#like img{
+    border-radius: 0px 95px;
+width: 150px;
+
+}
+#like img:hover{
+    /* border-color: aqua; */
+    /* overflow: hidden; */
+    border: 4px solid aqua;
+}
+#like{
+    overflow: scroll;
+    /* overflow: hidden; */
 }
