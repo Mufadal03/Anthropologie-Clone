@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h2{
+    font-size: 22px;
+}
+p,a{
+    font-size: 13px;
+   
+}
+p{
+    color: #747171;
+    line-height:25px
+}
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    height: 100vh;
+
+}
+.sec1{
+    /* background-color: cadetblue; */
+    font-family: monospace;
+line-height: 35px;
+
+}
+
+.headder2>ul{
+    list-style: none;
+    
+}
+li>a{
+    text-decoration: none;
+
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px;
+    
+}
+
+.box1{
+    /* background-color: rgb(204, 185, 185); */
+    /* grid-area:1px/1px/2px/2px ; */
+    padding: 10px;
+    font-family: monospace;
+
+
+
+}
+.box2{
+    /* background-color: rgb(214, 26, 26); */
+    /* grid-area:2px/1px/3px/2px ; */
+    padding: 10px;
+    font-family: monospace;
+
+
+
+}
+.box3{
+    /* background-color: rgb(44, 17, 202); */
+    grid-area:2/1/3/3 ;
+    padding: 10px;
+    font-family: monospace;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bb{
+    border-bottom:1px solid gray ;
+}
+.shop_new{
+padding: 10px 90px;
+}

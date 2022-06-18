@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8173112d8a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="navbar.css">
-    <!-- <link rel="stylesheet" href="/Anthropologie-Unit3\sign\style\sigg.css"> -->
-    <title>Antropologie - Women's Clothing </title>
-</head>
-<body>
-    <div id="navbar">
-       
-    </div>
-   
-</body>
-</html>
-
-<script type="module">
-    import navbar from "../components/navbar.js"
-    document.querySelector("#navbar").innerHTML=navbar()
-    import dropdown from "../components/dropdown.js"
-    dropdown()  
-    
-    
-
-
-
-
-    import {sinForm1} from "/Anthropologie-Unit3/components/forms.js"
+import {sinForm1} from "/Anthropologie-Unit3/components/forms.js"
 import {sinForm2} from "/Anthropologie-Unit3/components/forms.js"
 import {cAform1} from "/Anthropologie-Unit3/components/forms.js"
 import {cAform2} from "/Anthropologie-Unit3/components/forms.js"
@@ -355,4 +325,3 @@ function myAccDetails(){
     
 window.location.href="/Anthropologie-Unit3/sign/myAccount.html"
 }
-</script>
