@@ -15,7 +15,7 @@ let createdAccountData=JSON.parse(localStorage.getItem("createdAccounts")) || []
 swaping(userdata)
 function swaping(userdata){
     if(userdata[0]==null){
-    distag.innerText="Singin/Singup"
+    distag.innerText="Signin/Signup"
 }
 else{
     distag.innerText="My Account"

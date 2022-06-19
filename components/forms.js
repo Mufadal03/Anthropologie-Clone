@@ -4,7 +4,7 @@ let sinForm1=()=>{
     <span class="material-symbols-outlined" >
     x
     </span>
-    <h2>Sing In</h2>
+    <h2>Sign In</h2>
     <p class="boundry"></p>
     <p class="s_p">Sign in so you can save items to your 
         
@@ -16,7 +16,7 @@ let sinForm1=()=>{
             <button>Use Mobile Instad</button>
         </from>
         <p></p>
-        <h2>Sing Up</h2>
+        <h2>Sign Up</h2>
         <p class="s_p">Sign in so you can save items to your wishlists, track your orders,<br/> and check out faster</p>
         <button class="CAC_button">Creat New Account</button>
     `
