@@ -1,7 +1,32 @@
+
+let saved_data=document.getElementById("saved");
+let jj=0;
 function but(){
   console.log(56754)
   alert (2)
 }
+
+//////////////////////////
+let d=[{
+  image:"https://images.urbndata.com/is/image/Anthropologie/4130348690162_010_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+ name:"Maeve Strappy Button-Front Midi Dress",
+   price:180,
+},
+{
+  image:"https://images.urbndata.com/is/image/Anthropologie/4130916210073_095_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+ name:"One-Shoulder Silk Midi Dress",
+   price:298,
+   midtext:"Plus Sizes"
+},
+{
+  image:"https://images.urbndata.com/is/image/Anthropologie/4130344600147_080_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+ name:"La Me Be Fringed Tube",
+   price:180,
+   midtext:"Plus Sizes"
+},]
+
+// localStorage.setItem("CartItem",JSON.stringify(d))
+///////////////////////////
 
 
 var clothes =[{
@@ -135,6 +160,7 @@ remove.addEventListener("click",function(){
 
 save.addEventListener("click",function(){
   // console.log(el,ii)
+  this.parentNode.remove()
   dave(el,ii)
 })
 
@@ -169,45 +195,52 @@ asdf.innerHTML="$"+subtotal
 
 
 function deleting(el,ii){
+console.log("del")
+console.log(clothesDATA)
 
 clothesDATA.splice(ii,1);
-localStorage.setItem("basket",JSON.stringify(clothesDATA))
-// window.location.reload()
+console.log(clothesDATA)
+localStorage.setItem("CartItem",JSON.stringify(clothesDATA))
+window.location.reload()
 
 }
 
 let new_data=JSON.parse(localStorage.getItem("save")) || []
 
 function dave(el,ii){
-  // event.preventDefault()
+  console.log("Enter")
+  event.preventDefault()
   new_data.push(el)
   localStorage.setItem("save",JSON.stringify(new_data))
-  deleting(el,ii)
-    console.log(new_data)
-    
+  console.log(new_data)
+  
 
     // ****
+
+
     let div=document.createElement("div");
-let div2=document.createElement("div");
+    let div2=document.createElement("div");
+    
+    
+    let name=document.createElement("h5");
+    let img=document.createElement("img");
+    let price=document.createElement("p");
+    
+    let totalPrice=document.createElement("p");
+    totalPrice.innerText=el.price;
+    subtotal+=el.price;
+    let quantity=document.createElement("div");
+    quantity.innerHTML=select()
+    
+    var remove=document.createElement("button");
+    remove.innerText="Add to cart";
+    // var save=document.createElement("button");
+    // save.innerText="Save for Later";
+    
 
-
-let name=document.createElement("h5");
-let img=document.createElement("img");
-let price=document.createElement("p");
-
-let totalPrice=document.createElement("p");
-totalPrice.innerText=el.price;
-subtotal+=el.price;
-let quantity=document.createElement("div");
-quantity.innerHTML=select()
-
-var remove=document.createElement("button");
-remove.innerText="Add to cart";
-// var save=document.createElement("button");
-// save.innerText="Save for Later";
-
-remove.addEventListener("click",function(){
-  deleting(el,ii)
+    // changeddd
+    remove.addEventListener("click",function(){
+      window.location.reload()
 })
 
 // save.addEventListener("click",function(){
@@ -221,10 +254,10 @@ img.src=el.image;
 price.innerText=el.price;
 
 
-quantity.addEventListener("submit",function(){
-// console.log(quantity.innerText)
-
-// pending**************************
+quantity.addEventListener("change",function(){
+  // console.log(quantity.innerText)
+  
+  // pending**************************
 })
 
 
@@ -232,6 +265,7 @@ quantity.addEventListener("submit",function(){
 
 div2.append(name)
 div.append(img,div2,quantity,price,totalPrice,remove)
+saved_data.innerHTML=null
 saved_data.append(div)
 // ****
 
@@ -239,13 +273,11 @@ saved_data.append(div)
 
 
 
-    console.log(saved_data)
-  // window.location.reload()
+console.log(saved_data)
+// deleting(el,ii)
+// window.location.reload()
 }
 
-
-let saved_data=document.getElementById("save");
-let jj=0;
 // let new_data=JSON.parse(localStorage.getItem("save")) || []
 
 console.log(new_data,675667)
