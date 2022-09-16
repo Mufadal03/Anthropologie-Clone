@@ -37,7 +37,7 @@
 
 ## Getting Started
 
-                                             This project was built using Basic HTML , CSS and JAVASCRIPT.
+This project was built using Basic HTML , CSS and JAVASCRIPT.
 Anthropoliogie is an E-commerce women's clothings and accessories based website , to run it in your local system you should follow these guidelines.
 
 
