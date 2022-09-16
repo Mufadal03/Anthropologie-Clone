@@ -33,9 +33,9 @@
 - Featured products
 
 <br/>
-### Glimpse of our website
-![AnthroHome](https://user-images.githubusercontent.com/101393298/190655481-f2d6f8d4-8650-4c69-a98b-1e486ec4bc0b.png)
+## Glimpse of our website
 
+![AnthroHome](https://user-images.githubusercontent.com/101393298/190655740-f48093f3-2f96-483b-a98d-73a330e89c4d.png)
 ![AnthroClothing](https://user-images.githubusercontent.com/101393298/190655502-9723f3a2-91f6-42c9-aa74-5121fcd52bb2.png)
 ![AnthroShoes](https://user-images.githubusercontent.com/101393298/190655514-6f799ecf-b58a-4929-96a7-3684b9877ea1.png)
 ![AnthroLiving](https://user-images.githubusercontent.com/101393298/190655523-6582bc5b-2db6-4c40-afc5-0bf73f55b2b3.png)
