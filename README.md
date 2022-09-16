@@ -33,6 +33,7 @@
 - Featured products
 
 <br/>
+
 ## Glimpse of our website
 
 ![AnthroHome](https://user-images.githubusercontent.com/101393298/190655740-f48093f3-2f96-483b-a98d-73a330e89c4d.png)
