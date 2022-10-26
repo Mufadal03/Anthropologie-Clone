@@ -79,7 +79,7 @@ Open the vs-code editor right click on index.js and select the copy path then pa
 
 - [Mufadal Sadriwala](https://github.com/Mufadal03)
 - [Yogesh jagtap](https://github.com/jagtapyogesh41)
-- [Nikhil Singh](https://github.com/Nikhil-81)
+- [Nikhil Walwatkar](https://github.com/Nikhil-81)
 - [Kiran Bhill](https://github.com/kiranbhil)
 - [Arun](https://github.com/arun5G)
 - [Rohit Kumar](https://github.com/Rohit1-1)
